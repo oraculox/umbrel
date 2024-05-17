@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: caboi-umbrel-kestra
+name: Flame
+category: Dashboards
+version: "0.0.2"
+tagline: Self-hosted Kestra
+icon: https://i.imgur.com/TzyTrX0.png
+description: >
+  Kestra is a universal open-source orchestrator that makes both scheduled and event-driven workflows easy.
+  By bringing Infrastructure as Code best practices to data, process, and microservice orchestration, you can build reliable workflows and manage them with confidence.
+developer: Kestra Technologies
+website: https://github.com/kestra-io/kestra
+dependencies: []
+repo: https://github.com/kestra-io/kestra
+support: https://github.com/kestra-io/kestra/issues
+port: 8080
+gallery:
+  - https://kestra.io/landing/how/how-5.svg
+  - https://kestra.io/blogs/2024-05-15-task-runners.jpg
+  - 
+path: ""
+deterministicPassword: true
+releaseNotes: >
+  What's Changed
+  - core/jdbc: add missing sort mapping for ServiceInstanceRepositoryInterface
+submitter: CaboiCommunity
+submission:
